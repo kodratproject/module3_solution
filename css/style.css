@@ -1,0 +1,91 @@
+#navbar-header {
+    height: 80px;
+    padding-top: 10px;
+    background-color: salmon;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#navbar-header .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+#navbar-header .navbar-nav li>a {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+#list-menu {
+    margin-top: -20px;
+    background-color: rgb(210, 221, 163);
+}
+
+#list-menu .judul {
+    padding-top: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.menu {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0px;
+    display: block;
+}
+
+.bg-color {
+    background-color: azure;
+    border: 2px solid black;
+    box-shadow: 0 0 20px;
+}
+
+#list-menu .menu .bg-color {
+    padding: 0px;
+    margin: 10px;
+    /* width: 400px; */
+}
+
+#list-menu .bg-color p {
+    font-size: medium;
+    margin: 10px;
+}
+
+#list-menu .text {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width:720px) {
+    #navbar-header .navbar-collapse {
+        background-color: rgb(163, 76, 76);
+    }
+    .navbar-brand {
+        margin-top: 4px;
+        font-size: 30px;
+    }
+    #navbar-header {
+        height: 60px;
+        padding-top: 3px;
+    }
+    #list-menu .judul {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:931px) {
+    #list-menu .menu {
+        margin-bottom: 100px;
+    }
+    .bg-color {
+        margin-top: 20px;
+    }
+}
